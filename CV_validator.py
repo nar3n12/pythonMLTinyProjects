@@ -82,5 +82,5 @@ clf = tree.DecisionTreeClassifier()
 
 clf.fit(X,Y)
 
-print("Verdict :") #PREDICTED RESULTS
+print("Final Verdict :") #PREDICTED RESULTS
 print(clf.predict([[a0,a1,a4,a3,a2,a5]]))
